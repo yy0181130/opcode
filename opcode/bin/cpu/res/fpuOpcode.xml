@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<fpuMapBeanLst>
+	<fpubean opcode="da">
+        <context opcodeName="fiadd" reg="000" handler="" p1="dword-integer"/>
+    </fpubean>
+	<fpubean opcode="db">
+        <context opcodeName="fild" reg="000" handler="" p1="dword-integer"/>
+    </fpubean>
+	 <fpubean opcode="dc">
+	    <context opcodeName="fadd" reg="000" handler="" p1="double-real"/>
+	 	<context opcodeName="fmul" reg="001" handler="" p1="double-real"/>
+        <context opcodeName="fcomp" reg="011" handler="" p1="double-real"/>
+     </fpubean>
+    <fpubean opcode="dd">
+        <context opcodeName="fld" reg="000" handler="" p1="double-real"/>
+        <context opcodeName="" reg="001"    handler=""/>
+        <context opcodeName="" opcode="d1"  handler=""/>
+    </fpubean>
+    <fpubean opcode="df">
+        <context opcodeName="fstsw" modrm="e0" handler="" p1="ax"/>
+     </fpubean>
+</fpuMapBeanLst>

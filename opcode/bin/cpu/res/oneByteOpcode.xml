@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<oneByteOpcodeBeanLst>
+    <opcode opcode="00" opcodeName="add"  handler="decode"            length="6"   firstOperandType="Eb"   secondOperandType="Gb"     />
+    <opcode opcode="01" opcodeName="add"  handler="decode"            length="6"   firstOperandType="Ev"   secondOperandType="Gv"     />
+    <opcode opcode="02" opcodeName="add"  handler="decode"            length="2"   firstOperandType="Gb"   secondOperandType="Eb"     />
+    <opcode opcode="03" opcodeName="add"  handler="decode"            length="2"   firstOperandType="Gv"   secondOperandType="Ev"     />
+    <opcode opcode="04" opcodeName="add"  handler="decode"            length="2"   firstOperandType="AL"   secondOperandType="Ib"     />
+    <opcode opcode="05" opcodeName="add"  handler="decode"            length="5"   firstOperandType="rAX"  secondOperandType="Iz5"     />
+    
+    <opcode opcode="08" opcodeName="or"   handler="decode"           length="2"   firstOperandType="Eb"  secondOperandType="Gb"      />
+    <opcode opcode="09" opcodeName="or"   handler="decode"           length="2"   firstOperandType="Ev"  secondOperandType="Gv"      />
+    <opcode opcode="0a" opcodeName="or"   handler="decode"           length="2"   firstOperandType="Gb"  secondOperandType="Eb"      />
+    <opcode opcode="0b" opcodeName="or"   handler="decode"           length="2"   firstOperandType="Gv"  secondOperandType="Ev"      />
+    <opcode opcode="0c" opcodeName="or"   handler="decode"           length="2"   firstOperandType="AL"  secondOperandType="Ib"      />
+    <opcode opcode="0d" opcodeName="or"   handler="decode"           length="2"   firstOperandType="rAX" secondOperandType="Iz"      />
+    <opcode opcode="0f" opcodeName="twoByteParser"  handler="decode" length="2"   firstOperandType=""    secondOperandType=""        />
+    
+    <opcode opcode="18" opcodeName="sbb"  handler="decode"           length="2"   firstOperandType="Eb"  secondOperandType="Gb"      />
+    <opcode opcode="19" opcodeName="sbb"  handler="decode"           length="2"   firstOperandType="Ev"  secondOperandType="Gv"      />
+    <opcode opcode="1a" opcodeName="sbb"  handler="decode"           length="2"   firstOperandType="Gb"  secondOperandType="Eb"      />
+    <opcode opcode="1b" opcodeName="sbb"  handler="decode"           length="2"   firstOperandType="Gv"  secondOperandType="Ev"      />
+    <opcode opcode="1c" opcodeName="sbb"  handler="decode"           length="2"   firstOperandType="AL"  secondOperandType="Ib"      />
+    <opcode opcode="1d" opcodeName="sbb"  handler="decode"           length="2"   firstOperandType="rAX"  secondOperandType="Iz"      />
+    
+    <opcode opcode="20" opcodeName="and"  handler="decode"            length="6"   firstOperandType="Eb"  secondOperandType="Gb"     />
+    <opcode opcode="21" opcodeName="and"  handler="decode"            length="6"   firstOperandType="Ev"  secondOperandType="Gv"     />
+    <opcode opcode="22" opcodeName="and"  handler="decode"            length="2"   firstOperandType="Gb"  secondOperandType="Eb"     />
+    <opcode opcode="23" opcodeName="and"  handler="decode"            length="2"   firstOperandType="Gv"  secondOperandType="Ev"     />
+    <opcode opcode="24" opcodeName="and"  handler="decode"            length="2"   firstOperandType="AL"  secondOperandType="Ib"     />
+    <opcode opcode="25" opcodeName="and"  handler="decode"            length="5"   firstOperandType="rAX" secondOperandType="Iz"     />
+    
+    <opcode opcode="28" opcodeName="sub"  handler="decode"           length="2"   firstOperandType="Eb"  secondOperandType="Gb"      />
+    <opcode opcode="29" opcodeName="sub"  handler="decode"           length="2"   firstOperandType="Ev"  secondOperandType="Gv"      />
+    <opcode opcode="2a" opcodeName="sub"  handler="decode"           length="2"   firstOperandType="Gb"  secondOperandType="Eb"      />
+    <opcode opcode="2b" opcodeName="sub"  handler="decode"           length="2"   firstOperandType="Gv"  secondOperandType="Ev"      />
+    <opcode opcode="2c" opcodeName="sub"  handler="decode"           length="2"   firstOperandType="AL"  secondOperandType="Ib"      />
+    <opcode opcode="2d" opcodeName="sub"  handler="decode"           length="2"   firstOperandType="rAX"  secondOperandType="Iz"      />
+    
+    <opcode opcode="30" opcodeName="xor"  handler="decode"           length="2"   firstOperandType="Eb"  secondOperandType="Gb"      />
+    <opcode opcode="31" opcodeName="xor"  handler="decode"           length="2"   firstOperandType="Ev"  secondOperandType="Gv"      />
+    <opcode opcode="32" opcodeName="xor"  handler="decode"           length="2"   firstOperandType="Gb"  secondOperandType="Eb"      />
+    <opcode opcode="33" opcodeName="xor"  handler="decode"           length="2"   firstOperandType="Gv"  secondOperandType="Ev"      />
+    <opcode opcode="34" opcodeName="xor"  handler="decode"           length="2"   firstOperandType="AL"  secondOperandType="Ib"      />
+    <opcode opcode="35" opcodeName="xor"  handler="decode"           length="2"   firstOperandType="rAX"  secondOperandType="Iz"      />
+    
+    <opcode opcode="38" opcodeName="cmp"  handler="decode"           length="2"   firstOperandType="Eb"  secondOperandType="Gb"      />
+    <opcode opcode="39" opcodeName="cmp"  handler="decode"           length="2"   firstOperandType="Ev"  secondOperandType="Gv"      />
+    <opcode opcode="3a" opcodeName="cmp"  handler="decode"           length="2"   firstOperandType="Gb"  secondOperandType="Eb"      />
+    <opcode opcode="3b" opcodeName="cmp"  handler="decode"           length="2"   firstOperandType="Gv"  secondOperandType="Ev"      />
+    <opcode opcode="3c" opcodeName="cmp"  handler="decode"           length="2"   firstOperandType="AL"  secondOperandType="Ib"      />
+    <opcode opcode="3d" opcodeName="cmp"  handler="decode"           length="2"   firstOperandType="rAX"  secondOperandType="Iz"      />
+    
+    <opcode opcode="40" opcodeName="inc"  handler="inc_eAX"           length="1"   firstOperandType="eAX"  secondOperandType=""      />
+    <opcode opcode="41" opcodeName="inc"  handler="inc_eCX"           length="1"   firstOperandType="eCX"  secondOperandType=""      />
+    <opcode opcode="42" opcodeName="inc"  handler="inc_eDX"           length="1"   firstOperandType="eDX"  secondOperandType=""      />
+    <opcode opcode="43" opcodeName="inc"  handler="inc_eBX"           length="1"   firstOperandType="eBX"  secondOperandType=""      />
+    <opcode opcode="44" opcodeName="inc"  handler="inc_eSP"           length="1"   firstOperandType="eSP"  secondOperandType=""      />
+    <opcode opcode="45" opcodeName="inc"  handler="inc_eBP"           length="1"   firstOperandType="eBP"  secondOperandType=""      />
+    <opcode opcode="46" opcodeName="inc"  handler="inc_eSI"           length="1"   firstOperandType="eSI"  secondOperandType=""      />
+    <opcode opcode="47" opcodeName="inc"  handler="inc_eDI"           length="1"   firstOperandType="eDI"  secondOperandType=""      />
+              
+    <opcode opcode="48" opcodeName="dec"  handler="dec_eAX"           length="1"   firstOperandType="eAX"  secondOperandType=""      />
+    <opcode opcode="49" opcodeName="dec"  handler="dec_eCX"           length="1"   firstOperandType="eCX"  secondOperandType=""      />
+    <opcode opcode="4a" opcodeName="dec"  handler="dec_eDX"           length="1"   firstOperandType="eDX"  secondOperandType=""      />
+    <opcode opcode="4b" opcodeName="dec"  handler="dec_eBX"           length="1"   firstOperandType="eBX"  secondOperandType=""      />
+    <opcode opcode="4c" opcodeName="dec"  handler="dec_eSP"           length="1"   firstOperandType="eSP"  secondOperandType=""      />
+    <opcode opcode="4d" opcodeName="dec"  handler="dec_eBP"           length="1"   firstOperandType="eBP"  secondOperandType=""      />
+    <opcode opcode="4e" opcodeName="dec"  handler="dec_eSI"           length="1"   firstOperandType="eSI"  secondOperandType=""      />
+    <opcode opcode="4f" opcodeName="dec"  handler="dec_eDI"           length="1"   firstOperandType="eDI"  secondOperandType=""      />
+   
+    <opcode opcode="50" opcodeName="push"  handler="push_eAX"         length="1"   firstOperandType=""     secondOperandType=""       />
+    <opcode opcode="51" opcodeName="push"  handler="push_eCX"         length="1"   firstOperandType=""     secondOperandType=""       />
+    <opcode opcode="52" opcodeName="push"  handler="push_eDX"         length="1"   firstOperandType=""     secondOperandType=""       />
+    <opcode opcode="53" opcodeName="push"  handler="push_eBX"         length="1"   firstOperandType=""     secondOperandType=""       />
+    <opcode opcode="54" opcodeName="push"  handler="push_eSP"         length="1"   firstOperandType=""     secondOperandType=""       />
+    <opcode opcode="55" opcodeName="push"  handler="push_eBP"         length="1"   firstOperandType=""     secondOperandType=""       />
+    <opcode opcode="56" opcodeName="push"  handler="push_eSI"         length="1"   firstOperandType=""     secondOperandType=""       />
+    <opcode opcode="57" opcodeName="push"  handler="push_eDI"         length="1"   firstOperandType=""     secondOperandType=""       />
+    
+    <opcode opcode="58" opcodeName="pop"  handler="pop_rAX"           length="1"   firstOperandType="rAX" secondOperandType=""       />
+    <opcode opcode="59" opcodeName="pop"  handler="pop_rCX"           length="1"   firstOperandType="rCX" secondOperandType=""       />
+    <opcode opcode="5a" opcodeName="pop"  handler="pop_rDX"           length="1"   firstOperandType="rDX" secondOperandType=""       />
+    <opcode opcode="5b" opcodeName="pop"  handler="pop_rBX"           length="1"   firstOperandType="rBX" secondOperandType=""       />
+    <opcode opcode="5c" opcodeName="pop"  handler="pop_rSP"           length="1"   firstOperandType="rSP" secondOperandType=""       />
+    <opcode opcode="5d" opcodeName="pop"  handler="pop_rBP"           length="1"   firstOperandType="rBP" secondOperandType=""       />
+    <opcode opcode="5e" opcodeName="pop"  handler="pop_rSI"           length="1"   firstOperandType="rSI" secondOperandType=""       />
+    <opcode opcode="5f" opcodeName="pop"  handler="pop_rDI"           length="1"   firstOperandType="rDI" secondOperandType=""       />
+    
+    
+    <opcode opcode="68" opcodeName="push"  handler="push_Iz"          length="5"   firstOperandType="Iz"  secondOperandType=""        />
+    <opcode opcode="69" opcodeName="imul"  handler="decode_GvEvIz"           length="10"  firstOperandType="Iz"  secondOperandType=""        />  
+    
+    <opcode opcode="6a" opcodeName="push"  handler="decode"           length="2"   firstOperandType="Ib"  secondOperandType=""        />
+   
+    <opcode opcode="70" opcodeName="jcc"   handler="jcc_o"            length="2"   firstOperandType=""    secondOperandType=""        />
+    <opcode opcode="72" opcodeName="jcc"   handler="jcc_b_nae_c"      length="2"   firstOperandType=""    secondOperandType=""        />
+    <opcode opcode="73" opcodeName="jcc"   handler="jcc_nb_ae_nc"     length="2"   firstOperandType=""    secondOperandType=""        />
+    <opcode opcode="74" opcodeName="jcc"   handler="jcc_z_e"          length="2"   firstOperandType=""    secondOperandType=""        />
+    <opcode opcode="75" opcodeName="jcc"   handler="jcc_nz_ne"        length="2"   firstOperandType=""    secondOperandType=""        />
+    <opcode opcode="76" opcodeName="jcc"   handler="jcc_be_na"        length="2"   firstOperandType=""    secondOperandType=""        />
+    <opcode opcode="77" opcodeName="jcc"   handler="jcc_nbe_a"        length="2"   firstOperandType=""    secondOperandType=""        />
+    <opcode opcode="78" opcodeName="jcc"   handler="jcc_s"            length="2"   firstOperandType=""    secondOperandType=""        />
+    <opcode opcode="79" opcodeName="jcc"   handler="jcc_ns"           length="2"   firstOperandType=""    secondOperandType=""        />
+    <opcode opcode="7c" opcodeName="jcc"   handler="jcc_l_nge"        length="2"   firstOperandType=""    secondOperandType=""        />
+    <opcode opcode="7d" opcodeName="jcc"   handler="jcc_nl_ge"        length="2"   firstOperandType=""    secondOperandType=""        />
+    <opcode opcode="7e" opcodeName="jcc"   handler="jcc_le_ng"        length="2"   firstOperandType=""    secondOperandType=""        />
+    <opcode opcode="7f" opcodeName="jcc"   handler="jcc_g"            length="2"   firstOperandType=""    secondOperandType=""        />
+    
+    <opcode opcode="80" opcodeName="group" handler="group1_handler"   length="3"   firstOperandType="Eb"  secondOperandType="Ib"      />
+    <opcode opcode="81" opcodeName="group" handler="group1_handler"   length="3"   firstOperandType="Ev"  secondOperandType="Iz"      />
+    <opcode opcode="82" opcodeName="group" handler="group1_handler"   length="3"   firstOperandType="Eb"  secondOperandType="Ib"      />
+    <opcode opcode="83" opcodeName="group" handler="group1_handler"   length="3"   firstOperandType="Ev"  secondOperandType="Ib"      />
+    
+    <opcode opcode="84" opcodeName="test"  handler="decode"       length="2"   firstOperandType="Eb"  secondOperandType="Gb"      />
+    <opcode opcode="85" opcodeName="test"  handler="decode"       length="2"   firstOperandType="Ev"  secondOperandType="Gv"      />
+   
+    <opcode opcode="88" opcodeName="mov"   handler="decode"           length="2"   firstOperandType="Eb"  secondOperandType="Gb"     />
+    <opcode opcode="89" opcodeName="mov"   handler="decode"           length="6"   firstOperandType="Ev"  secondOperandType="Gv"     />
+    <opcode opcode="8a" opcodeName="mov"   handler="decode"           length="2"   firstOperandType="Gb"  secondOperandType="Eb"     />
+    <opcode opcode="8b" opcodeName="mov"   handler="decode"           length="2"   firstOperandType="Gv"  secondOperandType="Ev"     />
+    <opcode opcode="8c" opcodeName="mov"   handler="decode"           length="2"   firstOperandType="Ev"  secondOperandType="Sw"     />
+    <opcode opcode="8d" opcodeName="lea"   handler="lea_Gv_M"         length="4"   firstOperandType="Gv"  secondOperandType="M"      />
+    <opcode opcode="8f" opcodeName="group"   handler="group1a_handler"  length="4"   firstOperandType="Ev" secondOperandType=""      />
+    
+    
+    <opcode opcode="90" opcodeName="nop"   handler="nop_handler"      length="1"   firstOperandType=""    secondOperandType=""       />
+    <opcode opcode="99" opcodeName="cdq"   handler="cdq_handler"      length="1"   firstOperandType=""    secondOperandType=""       />
+    <opcode opcode="9c" opcodeName="pushfd" handler="pushfd_handler"  length="1"   firstOperandType=""    secondOperandType=""       />
+    
+    <opcode opcode="a0" opcodeName="mov"   handler="decode"           length="5"   firstOperandType="AL" secondOperandType="Ob"     />
+    <opcode opcode="a1" opcodeName="mov"   handler="decode"           length="5"   firstOperandType="rAX" secondOperandType="Ov"     />
+    <opcode opcode="a2" opcodeName="mov"   handler="decode"           length="5"   firstOperandType="Ob" secondOperandType="AL"     />
+    <opcode opcode="a3" opcodeName="mov"   handler="decode"           length="5"   firstOperandType="Ov"  secondOperandType="rAX"    />
+    <opcode opcode="a4" opcodeName="movs"  handler="movs_a4"          length="1"   firstOperandType="Xb"  secondOperandType="Yb"    />
+    <opcode opcode="a5" opcodeName="movs"  handler="movs_a5"          length="1"   firstOperandType="Xv"  secondOperandType="Yv"    />
+    
+    <opcode opcode="a8" opcodeName="test"  handler="decode"          length="1"   firstOperandType="AL"  secondOperandType="Ib"    />
+
+    <opcode opcode="aa" opcodeName="stos"  handler="decode_byte"          length="1"   firstOperandType="Yb"  secondOperandType="AL"    />
+    <opcode opcode="ab" opcodeName="stos"  handler="decode"          length="1"   firstOperandType="Yv"  secondOperandType="rAx"    />
+    <opcode opcode="ae" opcodeName="scas"  handler="decode"          length="1"   firstOperandType="AL"  secondOperandType="Ib"    />
+    
+    
+    <opcode opcode="b0" opcodeName="mov"  handler="decode"           length="2"   firstOperandType="AL"     secondOperandType="Ib"   />
+    <opcode opcode="b3" opcodeName="mov"  handler="decode"           length="2"   firstOperandType="BL"     secondOperandType="Ib"      />
+    <opcode opcode="b8" opcodeName="mov"  handler="decode"           length="5"   firstOperandType="rAX"  secondOperandType="Iv"      />
+    <opcode opcode="b9" opcodeName="mov"  handler="decode"           length="5"   firstOperandType="rCX"  secondOperandType="Iv"      />
+    <opcode opcode="ba" opcodeName="mov"  handler="decode"           length="5"   firstOperandType="rDX"  secondOperandType="Iv"      />
+    <opcode opcode="bb" opcodeName="mov"  handler="decode"           length="5"   firstOperandType="rBX"  secondOperandType="Iv"      />
+    <opcode opcode="bc" opcodeName="mov"  handler="decode"           length="5"   firstOperandType="rSP"  secondOperandType="Iv"      />
+    <opcode opcode="bd" opcodeName="mov"  handler="decode"           length="5"   firstOperandType="rBP"  secondOperandType="Iv"      />
+    <opcode opcode="be" opcodeName="mov"  handler="decode"           length="5"   firstOperandType="rSI"  secondOperandType="Iv"      />
+    <opcode opcode="bf" opcodeName="mov"  handler="decode"           length="5"   firstOperandType="rDI"  secondOperandType="Iv"      />
+    
+    <opcode opcode="c1" opcodeName="group" handler="group2_handler"   length="3"   firstOperandType="Ev"  secondOperandType="Ib"      />
+    <opcode opcode="c2" opcodeName="retn" handler="decode"            length="3"   firstOperandType="Iw"  secondOperandType=""       />
+    <opcode opcode="c3" opcodeName="retn" handler="retn_handler"      length="1"   firstOperandType=""    secondOperandType=""       />
+    <opcode opcode="c6" opcodeName="group" handler="group11_handler"  length="5"   firstOperandType="Eb"  secondOperandType="Ib"     />
+    <opcode opcode="c7" opcodeName="group" handler="group11_handler"  length="5"   firstOperandType="Ev"  secondOperandType="Iz"     />
+    <opcode opcode="c9" opcodeName="leave" handler="leave_handler"    length="1"   firstOperandType=""    secondOperandType=""     />
+    <opcode opcode="cc" opcodeName="int3"  handler="int3_handler"     length="1"   firstOperandType=""    secondOperandType=""     />
+    
+    <opcode opcode="d1" opcodeName="group"     handler="group2_handler"   length="2"   firstOperandType="Ev"  secondOperandType="1"     />
+    <opcode opcode="d3" opcodeName="group"     handler="group2_handler"   length="2"   firstOperandType="Ev"  secondOperandType="CL"     />
+    
+    
+    <opcode opcode="da" opcodeName="fpuParser" handler="decode"           length="2"   firstOperandType=""  secondOperandType=""     />
+    <opcode opcode="db" opcodeName="fpuParser" handler="decode"           length="2"   firstOperandType=""  secondOperandType=""     />
+    <opcode opcode="dc" opcodeName="fpuParser" handler="decode"           length="2"   firstOperandType=""  secondOperandType=""     />
+    <opcode opcode="dd" opcodeName="fpuParser" handler="decode"           length="2"   firstOperandType=""  secondOperandType=""     />
+    <opcode opcode="df" opcodeName="fpuParser" handler="decode"           length="2"   firstOperandType=""  secondOperandType=""     />
+    
+    <opcode opcode="e8" opcodeName="call"  handler="call_Jz"          length="5"   firstOperandType="Jz"  secondOperandType=""       />
+    <opcode opcode="e9" opcodeName="jmp"  handler="jmp_Jz"            length="5"   firstOperandType="Jz"  secondOperandType=""       />
+    <opcode opcode="eb" opcodeName="jmp"  handler="jmp_Jb"            length="2"   firstOperandType="Jb"  secondOperandType=""       />
+    
+    <opcode opcode="f0" opcodeName="lock"  handler="lock_handler"     length="1"   firstOperandType=""    secondOperandType=""       />
+    <opcode opcode="f6" opcodeName="group"  handler="group3_handler"  length="2"   firstOperandType="Eb"  secondOperandType=""       />
+    <opcode opcode="f7" opcodeName="group"  handler="group3_handler"  length="2"   firstOperandType="Ev"  secondOperandType=""       />
+    <opcode opcode="fe" opcodeName="group"  handler="group4_handler"  length="2"   firstOperandType=""    secondOperandType=""       />
+    <opcode opcode="ff" opcodeName="group"  handler="group5_handler"  length="2"   firstOperandType=""    secondOperandType=""       />
+
+</oneByteOpcodeBeanLst>

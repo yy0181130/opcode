@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Root>
+     <item hexadecimal="00" ss="00" index="000"  base="000"  sacledIndex="[eax]" r32="eax"/>
+     <item hexadecimal="01" ss="00" index="000"  base="001"  sacledIndex="[eax]" r32="ecx"/>
+     <item hexadecimal="02" ss="00" index="000"  base="010"  sacledIndex="[eax]" r32="edx"/>
+     <item hexadecimal="03" ss="00" index="000"  base="011"  sacledIndex="[eax]" r32="ebx"/>
+     <item hexadecimal="04" ss="00" index="000"  base="100"  sacledIndex="[eax]" r32="esp"/>
+     <item hexadecimal="05" ss="00" index="000"  base="101"  sacledIndex="[eax]" r32="[*]"/>
+     <item hexadecimal="06" ss="00" index="000"  base="110"  sacledIndex="[eax]" r32="esi"/>
+     <item hexadecimal="07" ss="00" index="000"  base="111"  sacledIndex="[eax]" r32="edi"/>
+     
+     <item hexadecimal="08" ss="00" index="001"  base="000"  sacledIndex="[ecx]" r32="eax"/>
+     <item hexadecimal="09" ss="00" index="001"  base="001"  sacledIndex="[ecx]" r32="ecx"/>
+     <item hexadecimal="0A" ss="00" index="001"  base="010"  sacledIndex="[ecx]" r32="edx"/>
+     <item hexadecimal="0B" ss="00" index="001"  base="011"  sacledIndex="[ecx]" r32="ebx"/>
+     <item hexadecimal="0C" ss="00" index="001"  base="100"  sacledIndex="[ecx]" r32="esp"/>
+     <item hexadecimal="0D" ss="00" index="001"  base="101"  sacledIndex="[ecx]" r32="[*]"/>
+     <item hexadecimal="0E" ss="00" index="001"  base="110"  sacledIndex="[ecx]" r32="esi"/>
+     <item hexadecimal="0F" ss="00" index="001"  base="111"  sacledIndex="[ecx]" r32="edi"/>
+
+     <item hexadecimal="10" ss="00" index="010"  base="000"  sacledIndex="[edx]" r32="eax"/>
+     <item hexadecimal="11" ss="00" index="010"  base="001"  sacledIndex="[edx]" r32="ecx"/>
+     <item hexadecimal="12" ss="00" index="010"  base="010"  sacledIndex="[edx]" r32="edx"/>
+     <item hexadecimal="13" ss="00" index="010"  base="011"  sacledIndex="[edx]" r32="ebx"/>
+     <item hexadecimal="14" ss="00" index="010"  base="100"  sacledIndex="[edx]" r32="esp"/>
+     <item hexadecimal="15" ss="00" index="010"  base="101"  sacledIndex="[edx]" r32="[*]"/>
+     <item hexadecimal="16" ss="00" index="010"  base="110"  sacledIndex="[edx]" r32="esi"/>
+     <item hexadecimal="17" ss="00" index="010"  base="111"  sacledIndex="[edx]" r32="edi"/>
+
+     <item hexadecimal="18" ss="00" index="011"  base="000"  sacledIndex="[ebx]" r32="eax"/>
+     <item hexadecimal="19" ss="00" index="011"  base="001"  sacledIndex="[ebx]" r32="ecx"/>
+     <item hexadecimal="1A" ss="00" index="011"  base="010"  sacledIndex="[ebx]" r32="edx"/>
+     <item hexadecimal="1B" ss="00" index="011"  base="011"  sacledIndex="[ebx]" r32="ebx"/>
+     <item hexadecimal="1C" ss="00" index="011"  base="100"  sacledIndex="[ebx]" r32="esp"/>
+     <item hexadecimal="1D" ss="00" index="011"  base="101"  sacledIndex="[ebx]" r32="[*]"/>
+     <item hexadecimal="1E" ss="00" index="011"  base="110"  sacledIndex="[ebx]" r32="esi"/>
+     <item hexadecimal="1F" ss="00" index="011"  base="111"  sacledIndex="[ebx]" r32="edi"/>
+
+     <item hexadecimal="20" ss="00" index="100"  base="000"  sacledIndex="none" r32="eax"/>
+     <item hexadecimal="21" ss="00" index="100"  base="001"  sacledIndex="none" r32="ecx"/>
+     <item hexadecimal="22" ss="00" index="100"  base="010"  sacledIndex="none" r32="edx"/>
+     <item hexadecimal="23" ss="00" index="100"  base="011"  sacledIndex="none" r32="ebx"/>
+     <item hexadecimal="24" ss="00" index="100"  base="100"  sacledIndex="none" r32="esp"/>
+     <item hexadecimal="25" ss="00" index="100"  base="101"  sacledIndex="none" r32="[*]"/>
+     <item hexadecimal="26" ss="00" index="100"  base="110"  sacledIndex="none" r32="esi"/>
+     <item hexadecimal="27" ss="00" index="100"  base="111"  sacledIndex="none" r32="edi"/>
+ 
+     <item hexadecimal="28" ss="00" index="101"  base="000"  sacledIndex="[ebp]" r32="eax"/>
+     <item hexadecimal="29" ss="00" index="101"  base="001"  sacledIndex="[ebp]" r32="ecx"/>
+     <item hexadecimal="2A" ss="00" index="101"  base="010"  sacledIndex="[ebp]" r32="edx"/>
+     <item hexadecimal="2B" ss="00" index="101"  base="011"  sacledIndex="[ebp]" r32="ebx"/>
+     <item hexadecimal="2C" ss="00" index="101"  base="100"  sacledIndex="[ebp]" r32="esp"/>
+     <item hexadecimal="2D" ss="00" index="101"  base="101"  sacledIndex="[ebp]" r32="[*]"/>
+     <item hexadecimal="2E" ss="00" index="101"  base="110"  sacledIndex="[ebp]" r32="esi"/>
+     <item hexadecimal="2F" ss="00" index="101"  base="111"  sacledIndex="[ebp]" r32="edi"/>
+
+     <item hexadecimal="30" ss="00" index="110"  base="000"  sacledIndex="[esi]" r32="eax"/>
+     <item hexadecimal="31" ss="00" index="110"  base="001"  sacledIndex="[esi]" r32="ecx"/>
+     <item hexadecimal="32" ss="00" index="110"  base="010"  sacledIndex="[esi]" r32="edx"/>
+     <item hexadecimal="33" ss="00" index="110"  base="011"  sacledIndex="[esi]" r32="ebx"/>
+     <item hexadecimal="34" ss="00" index="110"  base="100"  sacledIndex="[esi]" r32="esp"/>
+     <item hexadecimal="35" ss="00" index="110"  base="101"  sacledIndex="[esi]" r32="[*]"/>
+     <item hexadecimal="36" ss="00" index="110"  base="110"  sacledIndex="[esi]" r32="esi"/>
+     <item hexadecimal="37" ss="00" index="110"  base="111"  sacledIndex="[esi]" r32="edi"/>
+     
+     <item hexadecimal="38" ss="00" index="111"  base="000"  sacledIndex="[edi]" r32="eax"/>
+     <item hexadecimal="39" ss="00" index="111"  base="001"  sacledIndex="[edi]" r32="ecx"/>
+     <item hexadecimal="3A" ss="00" index="111"  base="010"  sacledIndex="[edi]" r32="edx"/>
+     <item hexadecimal="3B" ss="00" index="111"  base="011"  sacledIndex="[edi]" r32="ebx"/>
+     <item hexadecimal="3C" ss="00" index="111"  base="100"  sacledIndex="[edi]" r32="esp"/>
+     <item hexadecimal="3D" ss="00" index="111"  base="101"  sacledIndex="[edi]" r32="[*]"/>
+     <item hexadecimal="3E" ss="00" index="111"  base="110"  sacledIndex="[edi]" r32="esi"/>
+     <item hexadecimal="3F" ss="00" index="111"  base="111"  sacledIndex="[edi]" r32="edi"/>
+     
+     <item hexadecimal="40" ss="01" index="000"  base="000"  sacledIndex="[eax*2]" r32="eax"/>
+     <item hexadecimal="41" ss="01" index="000"  base="001"  sacledIndex="[eax*2]" r32="ecx"/>
+     <item hexadecimal="42" ss="01" index="000"  base="010"  sacledIndex="[eax*2]" r32="edx"/>
+     <item hexadecimal="43" ss="01" index="000"  base="011"  sacledIndex="[eax*2]" r32="ebx"/>
+     <item hexadecimal="44" ss="01" index="000"  base="100"  sacledIndex="[eax*2]" r32="esp"/>
+     <item hexadecimal="45" ss="01" index="000"  base="101"  sacledIndex="[eax*2]" r32="[*]"/>
+     <item hexadecimal="46" ss="01" index="000"  base="110"  sacledIndex="[eax*2]" r32="esi"/>
+     <item hexadecimal="47" ss="01" index="000"  base="111"  sacledIndex="[eax*2]" r32="edi"/>
+     
+     <item hexadecimal="48" ss="01" index="001"  base="000"  sacledIndex="[ecx*2]" r32="eax"/>
+     <item hexadecimal="49" ss="01" index="001"  base="001"  sacledIndex="[ecx*2]" r32="ecx"/>
+     <item hexadecimal="4A" ss="01" index="001"  base="010"  sacledIndex="[ecx*2]" r32="edx"/>
+     <item hexadecimal="4B" ss="01" index="001"  base="011"  sacledIndex="[ecx*2]" r32="ebx"/>
+     <item hexadecimal="4C" ss="01" index="001"  base="100"  sacledIndex="[ecx*2]" r32="esp"/>
+     <item hexadecimal="4D" ss="01" index="001"  base="101"  sacledIndex="[ecx*2]" r32="[*]"/>
+     <item hexadecimal="4E" ss="01" index="001"  base="110"  sacledIndex="[ecx*2]" r32="esi"/>
+     <item hexadecimal="4F" ss="01" index="001"  base="111"  sacledIndex="[ecx*2]" r32="edi"/>
+     
+     <item hexadecimal="50" ss="01" index="010"  base="000"  sacledIndex="[edx*2]" r32="eax"/>
+     <item hexadecimal="51" ss="01" index="010"  base="001"  sacledIndex="[edx*2]" r32="ecx"/>
+     <item hexadecimal="52" ss="01" index="010"  base="010"  sacledIndex="[edx*2]" r32="edx"/>
+     <item hexadecimal="53" ss="01" index="010"  base="011"  sacledIndex="[edx*2]" r32="ebx"/>
+     <item hexadecimal="54" ss="01" index="010"  base="100"  sacledIndex="[edx*2]" r32="esp"/>
+     <item hexadecimal="55" ss="01" index="010"  base="101"  sacledIndex="[edx*2]" r32="[*]"/>
+     <item hexadecimal="56" ss="01" index="010"  base="110"  sacledIndex="[edx*2]" r32="esi"/>
+     <item hexadecimal="57" ss="01" index="010"  base="111"  sacledIndex="[edx*2]" r32="edi"/>
+     
+     <item hexadecimal="58" ss="01" index="011"  base="000"  sacledIndex="[ebx*2]" r32="eax"/>
+     <item hexadecimal="59" ss="01" index="011"  base="001"  sacledIndex="[ebx*2]" r32="ecx"/>
+     <item hexadecimal="5A" ss="01" index="011"  base="010"  sacledIndex="[ebx*2]" r32="edx"/>
+     <item hexadecimal="5B" ss="01" index="011"  base="011"  sacledIndex="[ebx*2]" r32="ebx"/>
+     <item hexadecimal="5C" ss="01" index="011"  base="100"  sacledIndex="[ebx*2]" r32="esp"/>
+     <item hexadecimal="5D" ss="01" index="011"  base="101"  sacledIndex="[ebx*2]" r32="[*]"/>
+     <item hexadecimal="5E" ss="01" index="011"  base="110"  sacledIndex="[ebx*2]" r32="esi"/>
+     <item hexadecimal="5F" ss="01" index="011"  base="111"  sacledIndex="[ebx*2]" r32="edi"/>
+     
+     <item hexadecimal="60" ss="01" index="100"  base="000"  sacledIndex="none" r32="eax"/>
+     <item hexadecimal="61" ss="01" index="100"  base="001"  sacledIndex="none" r32="ecx"/>
+     <item hexadecimal="62" ss="01" index="100"  base="010"  sacledIndex="none" r32="edx"/>
+     <item hexadecimal="63" ss="01" index="100"  base="011"  sacledIndex="none" r32="ebx"/>
+     <item hexadecimal="64" ss="01" index="100"  base="100"  sacledIndex="none" r32="esp"/>
+     <item hexadecimal="65" ss="01" index="100"  base="101"  sacledIndex="none" r32="[*]"/>
+     <item hexadecimal="66" ss="01" index="100"  base="110"  sacledIndex="none" r32="esi"/>
+     <item hexadecimal="67" ss="01" index="100"  base="111"  sacledIndex="none" r32="edi"/>
+     
+     <item hexadecimal="68" ss="01" index="101"  base="000"  sacledIndex="[ebp*2]" r32="eax"/>
+     <item hexadecimal="69" ss="01" index="101"  base="001"  sacledIndex="[ebp*2]" r32="ecx"/>
+     <item hexadecimal="6A" ss="01" index="101"  base="010"  sacledIndex="[ebp*2]" r32="edx"/>
+     <item hexadecimal="6B" ss="01" index="101"  base="011"  sacledIndex="[ebp*2]" r32="ebx"/>
+     <item hexadecimal="6C" ss="01" index="101"  base="100"  sacledIndex="[ebp*2]" r32="esp"/>
+     <item hexadecimal="6D" ss="01" index="101"  base="101"  sacledIndex="[ebp*2]" r32="[*]"/>
+     <item hexadecimal="6E" ss="01" index="101"  base="110"  sacledIndex="[ebp*2]" r32="esi"/>
+     <item hexadecimal="6F" ss="01" index="101"  base="111"  sacledIndex="[ebp*2]" r32="edi"/>
+     
+     <item hexadecimal="70" ss="01" index="110"  base="000"  sacledIndex="[esi*2]" r32="eax"/>
+     <item hexadecimal="71" ss="01" index="110"  base="001"  sacledIndex="[esi*2]" r32="ecx"/>
+     <item hexadecimal="72" ss="01" index="110"  base="010"  sacledIndex="[esi*2]" r32="edx"/>
+     <item hexadecimal="73" ss="01" index="110"  base="011"  sacledIndex="[esi*2]" r32="ebx"/>
+     <item hexadecimal="74" ss="01" index="110"  base="100"  sacledIndex="[esi*2]" r32="esp"/>
+     <item hexadecimal="75" ss="01" index="110"  base="101"  sacledIndex="[esi*2]" r32="[*]"/>
+     <item hexadecimal="76" ss="01" index="110"  base="110"  sacledIndex="[esi*2]" r32="esi"/>
+     <item hexadecimal="77" ss="01" index="110"  base="111"  sacledIndex="[esi*2]" r32="edi"/>
+     
+     <item hexadecimal="78" ss="01" index="111"  base="000"  sacledIndex="[edi*2]" r32="eax"/>
+     <item hexadecimal="79" ss="01" index="111"  base="001"  sacledIndex="[edi*2]" r32="ecx"/>
+     <item hexadecimal="7A" ss="01" index="111"  base="010"  sacledIndex="[edi*2]" r32="edx"/>
+     <item hexadecimal="7B" ss="01" index="111"  base="011"  sacledIndex="[edi*2]" r32="ebx"/>
+     <item hexadecimal="7C" ss="01" index="111"  base="100"  sacledIndex="[edi*2]" r32="esp"/>
+     <item hexadecimal="7D" ss="01" index="111"  base="101"  sacledIndex="[edi*2]" r32="[*]"/>
+     <item hexadecimal="7E" ss="01" index="111"  base="110"  sacledIndex="[edi*2]" r32="esi"/>
+     <item hexadecimal="7F" ss="01" index="111"  base="111"  sacledIndex="[edi*2]" r32="edi"/>
+     
+     
+     <item hexadecimal="80" ss="10" index="000"  base="000"  sacledIndex="[eax*4]" r32="eax"/>
+     <item hexadecimal="81" ss="10" index="000"  base="001"  sacledIndex="[eax*4]" r32="ecx"/>
+     <item hexadecimal="82" ss="10" index="000"  base="010"  sacledIndex="[eax*4]" r32="edx"/>
+     <item hexadecimal="83" ss="10" index="000"  base="011"  sacledIndex="[eax*4]" r32="ebx"/>
+     <item hexadecimal="84" ss="10" index="000"  base="100"  sacledIndex="[eax*4]" r32="esp"/>
+     <item hexadecimal="85" ss="10" index="000"  base="101"  sacledIndex="[eax*4]" r32="[*]"/>
+     <item hexadecimal="86" ss="10" index="000"  base="110"  sacledIndex="[eax*4]" r32="esi"/>
+     <item hexadecimal="87" ss="10" index="000"  base="111"  sacledIndex="[eax*4]" r32="edi"/>
+     
+     <item hexadecimal="88" ss="10" index="001"  base="000"  sacledIndex="[ecx*4]" r32="eax"/>
+     <item hexadecimal="89" ss="10" index="001"  base="001"  sacledIndex="[ecx*4]" r32="ecx"/>
+     <item hexadecimal="8A" ss="10" index="001"  base="010"  sacledIndex="[ecx*4]" r32="edx"/>
+     <item hexadecimal="8B" ss="10" index="001"  base="011"  sacledIndex="[ecx*4]" r32="ebx"/>
+     <item hexadecimal="8C" ss="10" index="001"  base="100"  sacledIndex="[ecx*4]" r32="esp"/>
+     <item hexadecimal="8D" ss="10" index="001"  base="101"  sacledIndex="[ecx*4]" r32="[*]"/>
+     <item hexadecimal="8E" ss="10" index="001"  base="110"  sacledIndex="[ecx*4]" r32="esi"/>
+     <item hexadecimal="8F" ss="10" index="001"  base="111"  sacledIndex="[ecx*4]" r32="edi"/>
+
+     <item hexadecimal="90" ss="10" index="010"  base="000"  sacledIndex="[edx*4]" r32="eax"/>
+     <item hexadecimal="91" ss="10" index="010"  base="001"  sacledIndex="[edx*4]" r32="ecx"/>
+     <item hexadecimal="92" ss="10" index="010"  base="010"  sacledIndex="[edx*4]" r32="edx"/>
+     <item hexadecimal="93" ss="10" index="010"  base="011"  sacledIndex="[edx*4]" r32="ebx"/>
+     <item hexadecimal="94" ss="10" index="010"  base="100"  sacledIndex="[edx*4]" r32="esp"/>
+     <item hexadecimal="95" ss="10" index="010"  base="101"  sacledIndex="[edx*4]" r32="[*]"/>
+     <item hexadecimal="96" ss="10" index="010"  base="110"  sacledIndex="[edx*4]" r32="esi"/>
+     <item hexadecimal="97" ss="10" index="010"  base="111"  sacledIndex="[edx*4]" r32="edi"/>
+
+     <item hexadecimal="98" ss="10" index="011"  base="000"  sacledIndex="[ebx*4]" r32="eax"/>
+     <item hexadecimal="99" ss="10" index="011"  base="001"  sacledIndex="[ebx*4]" r32="ecx"/>
+     <item hexadecimal="9A" ss="10" index="011"  base="010"  sacledIndex="[ebx*4]" r32="edx"/>
+     <item hexadecimal="9B" ss="10" index="011"  base="011"  sacledIndex="[ebx*4]" r32="ebx"/>
+     <item hexadecimal="9C" ss="10" index="011"  base="100"  sacledIndex="[ebx*4]" r32="esp"/>
+     <item hexadecimal="9D" ss="10" index="011"  base="101"  sacledIndex="[ebx*4]" r32="[*]"/>
+     <item hexadecimal="9E" ss="10" index="011"  base="110"  sacledIndex="[ebx*4]" r32="esi"/>
+     <item hexadecimal="9F" ss="10" index="011"  base="111"  sacledIndex="[ebx*4]" r32="edi"/>
+
+     <item hexadecimal="A0" ss="10" index="100"  base="000"  sacledIndex="none" r32="eax"/>
+     <item hexadecimal="A1" ss="10" index="100"  base="001"  sacledIndex="none" r32="ecx"/>
+     <item hexadecimal="A2" ss="10" index="100"  base="010"  sacledIndex="none" r32="edx"/>
+     <item hexadecimal="A3" ss="10" index="100"  base="011"  sacledIndex="none" r32="ebx"/>
+     <item hexadecimal="A4" ss="10" index="100"  base="100"  sacledIndex="none" r32="esp"/>
+     <item hexadecimal="A5" ss="10" index="100"  base="101"  sacledIndex="none" r32="[*]"/>
+     <item hexadecimal="A6" ss="10" index="100"  base="110"  sacledIndex="none" r32="esi"/>
+     <item hexadecimal="A7" ss="10" index="100"  base="111"  sacledIndex="none" r32="edi"/>
+ 
+     <item hexadecimal="A8" ss="10" index="101"  base="000"  sacledIndex="[ebp*4]" r32="eax"/>
+     <item hexadecimal="A9" ss="10" index="101"  base="001"  sacledIndex="[ebp*4]" r32="ecx"/>
+     <item hexadecimal="AA" ss="10" index="101"  base="010"  sacledIndex="[ebp*4]" r32="edx"/>
+     <item hexadecimal="AB" ss="10" index="101"  base="011"  sacledIndex="[ebp*4]" r32="ebx"/>
+     <item hexadecimal="AC" ss="10" index="101"  base="100"  sacledIndex="[ebp*4]" r32="esp"/>
+     <item hexadecimal="AD" ss="10" index="101"  base="101"  sacledIndex="[ebp*4]" r32="[*]"/>
+     <item hexadecimal="AE" ss="10" index="101"  base="110"  sacledIndex="[ebp*4]" r32="esi"/>
+     <item hexadecimal="AF" ss="10" index="101"  base="111"  sacledIndex="[ebp*4]" r32="edi"/>
+
+     <item hexadecimal="B0" ss="10" index="110"  base="000"  sacledIndex="[esi*4]" r32="eax"/>
+     <item hexadecimal="B1" ss="10" index="110"  base="001"  sacledIndex="[esi*4]" r32="ecx"/>
+     <item hexadecimal="B2" ss="10" index="110"  base="010"  sacledIndex="[esi*4]" r32="edx"/>
+     <item hexadecimal="B3" ss="10" index="110"  base="011"  sacledIndex="[esi*4]" r32="ebx"/>
+     <item hexadecimal="B4" ss="10" index="110"  base="100"  sacledIndex="[esi*4]" r32="esp"/>
+     <item hexadecimal="B5" ss="10" index="110"  base="101"  sacledIndex="[esi*4]" r32="[*]"/>
+     <item hexadecimal="B6" ss="10" index="110"  base="110"  sacledIndex="[esi*4]" r32="esi"/>
+     <item hexadecimal="B7" ss="10" index="110"  base="111"  sacledIndex="[esi*4]" r32="edi"/>
+     
+     <item hexadecimal="B8" ss="10" index="111"  base="000"  sacledIndex="[edi*4]" r32="eax"/>
+     <item hexadecimal="B9" ss="10" index="111"  base="001"  sacledIndex="[edi*4]" r32="ecx"/>
+     <item hexadecimal="BA" ss="10" index="111"  base="010"  sacledIndex="[edi*4]" r32="edx"/>
+     <item hexadecimal="BB" ss="10" index="111"  base="011"  sacledIndex="[edi*4]" r32="ebx"/>
+     <item hexadecimal="BC" ss="10" index="111"  base="100"  sacledIndex="[edi*4]" r32="esp"/>
+     <item hexadecimal="BD" ss="10" index="111"  base="101"  sacledIndex="[edi*4]" r32="[*]"/>
+     <item hexadecimal="BE" ss="10" index="111"  base="110"  sacledIndex="[edi*4]" r32="esi"/>
+     <item hexadecimal="BF" ss="10" index="111"  base="111"  sacledIndex="[edi*4]" r32="edi"/>
+     
+     <item hexadecimal="C0" ss="11" index="000"  base="000"  sacledIndex="[eax*8]" r32="eax"/>
+     <item hexadecimal="C1" ss="11" index="000"  base="001"  sacledIndex="[eax*8]" r32="ecx"/>
+     <item hexadecimal="C2" ss="11" index="000"  base="010"  sacledIndex="[eax*8]" r32="edx"/>
+     <item hexadecimal="C3" ss="11" index="000"  base="011"  sacledIndex="[eax*8]" r32="ebx"/>
+     <item hexadecimal="C4" ss="11" index="000"  base="100"  sacledIndex="[eax*8]" r32="esp"/>
+     <item hexadecimal="C5" ss="11" index="000"  base="101"  sacledIndex="[eax*8]" r32="[*]"/>
+     <item hexadecimal="C6" ss="11" index="000"  base="110"  sacledIndex="[eax*8]" r32="esi"/>
+     <item hexadecimal="C7" ss="11" index="000"  base="111"  sacledIndex="[eax*8]" r32="edi"/>
+     
+     <item hexadecimal="C8" ss="11" index="001"  base="000"  sacledIndex="[ecx*8]" r32="eax"/>
+     <item hexadecimal="C9" ss="11" index="001"  base="001"  sacledIndex="[ecx*8]" r32="ecx"/>
+     <item hexadecimal="CA" ss="11" index="001"  base="010"  sacledIndex="[ecx*8]" r32="edx"/>
+     <item hexadecimal="CB" ss="11" index="001"  base="011"  sacledIndex="[ecx*8]" r32="ebx"/>
+     <item hexadecimal="CC" ss="11" index="001"  base="100"  sacledIndex="[ecx*8]" r32="esp"/>
+     <item hexadecimal="CD" ss="11" index="001"  base="101"  sacledIndex="[ecx*8]" r32="[*]"/>
+     <item hexadecimal="CE" ss="11" index="001"  base="110"  sacledIndex="[ecx*8]" r32="esi"/>
+     <item hexadecimal="CF" ss="11" index="001"  base="111"  sacledIndex="[ecx*8]" r32="edi"/>
+     
+     <item hexadecimal="D0" ss="11" index="010"  base="000"  sacledIndex="[edx*8]" r32="eax"/>
+     <item hexadecimal="D1" ss="11" index="010"  base="001"  sacledIndex="[edx*8]" r32="ecx"/>
+     <item hexadecimal="D2" ss="11" index="010"  base="010"  sacledIndex="[edx*8]" r32="edx"/>
+     <item hexadecimal="D3" ss="11" index="010"  base="011"  sacledIndex="[edx*8]" r32="ebx"/>
+     <item hexadecimal="D4" ss="11" index="010"  base="100"  sacledIndex="[edx*8]" r32="esp"/>
+     <item hexadecimal="D5" ss="11" index="010"  base="101"  sacledIndex="[edx*8]" r32="[*]"/>
+     <item hexadecimal="D6" ss="11" index="010"  base="110"  sacledIndex="[edx*8]" r32="esi"/>
+     <item hexadecimal="D7" ss="11" index="010"  base="111"  sacledIndex="[edx*8]" r32="edi"/>
+     
+     <item hexadecimal="D8" ss="11" index="011"  base="000"  sacledIndex="[ebx*8]" r32="eax"/>
+     <item hexadecimal="D9" ss="11" index="011"  base="001"  sacledIndex="[ebx*8]" r32="ecx"/>
+     <item hexadecimal="DA" ss="11" index="011"  base="010"  sacledIndex="[ebx*8]" r32="edx"/>
+     <item hexadecimal="DB" ss="11" index="011"  base="011"  sacledIndex="[ebx*8]" r32="ebx"/>
+     <item hexadecimal="DC" ss="11" index="011"  base="100"  sacledIndex="[ebx*8]" r32="esp"/>
+     <item hexadecimal="DD" ss="11" index="011"  base="101"  sacledIndex="[ebx*8]" r32="[*]"/>
+     <item hexadecimal="DE" ss="11" index="011"  base="110"  sacledIndex="[ebx*8]" r32="esi"/>
+     <item hexadecimal="DF" ss="11" index="011"  base="111"  sacledIndex="[ebx*8]" r32="edi"/>
+     
+     <item hexadecimal="E0" ss="11" index="100"  base="000"  sacledIndex="none" r32="eax"/>
+     <item hexadecimal="E1" ss="11" index="100"  base="001"  sacledIndex="none" r32="ecx"/>
+     <item hexadecimal="E2" ss="11" index="100"  base="010"  sacledIndex="none" r32="edx"/>
+     <item hexadecimal="E3" ss="11" index="100"  base="011"  sacledIndex="none" r32="ebx"/>
+     <item hexadecimal="E4" ss="11" index="100"  base="100"  sacledIndex="none" r32="esp"/>
+     <item hexadecimal="E5" ss="11" index="100"  base="101"  sacledIndex="none" r32="[*]"/>
+     <item hexadecimal="E6" ss="11" index="100"  base="110"  sacledIndex="none" r32="esi"/>
+     <item hexadecimal="E7" ss="11" index="100"  base="111"  sacledIndex="none" r32="edi"/>
+     
+     <item hexadecimal="E8" ss="11" index="101"  base="000"  sacledIndex="[ebp*8]" r32="eax"/>
+     <item hexadecimal="E9" ss="11" index="101"  base="001"  sacledIndex="[ebp*8]" r32="ecx"/>
+     <item hexadecimal="EA" ss="11" index="101"  base="010"  sacledIndex="[ebp*8]" r32="edx"/>
+     <item hexadecimal="EB" ss="11" index="101"  base="011"  sacledIndex="[ebp*8]" r32="ebx"/>
+     <item hexadecimal="EC" ss="11" index="101"  base="100"  sacledIndex="[ebp*8]" r32="esp"/>
+     <item hexadecimal="ED" ss="11" index="101"  base="101"  sacledIndex="[ebp*8]" r32="[*]"/>
+     <item hexadecimal="EE" ss="11" index="101"  base="110"  sacledIndex="[ebp*8]" r32="esi"/>
+     <item hexadecimal="EF" ss="11" index="101"  base="111"  sacledIndex="[ebp*8]" r32="edi"/>
+     
+     <item hexadecimal="F0" ss="11" index="110"  base="000"  sacledIndex="[esi*8]" r32="eax"/>
+     <item hexadecimal="F1" ss="11" index="110"  base="001"  sacledIndex="[esi*8]" r32="ecx"/>
+     <item hexadecimal="F2" ss="11" index="110"  base="010"  sacledIndex="[esi*8]" r32="edx"/>
+     <item hexadecimal="F3" ss="11" index="110"  base="011"  sacledIndex="[esi*8]" r32="ebx"/>
+     <item hexadecimal="F4" ss="11" index="110"  base="100"  sacledIndex="[esi*8]" r32="esp"/>
+     <item hexadecimal="F5" ss="11" index="110"  base="101"  sacledIndex="[esi*8]" r32="[*]"/>
+     <item hexadecimal="F6" ss="11" index="110"  base="110"  sacledIndex="[esi*8]" r32="esi"/>
+     <item hexadecimal="F7" ss="11" index="110"  base="111"  sacledIndex="[esi*8]" r32="edi"/>
+     
+     <item hexadecimal="F8" ss="11" index="111"  base="000"  sacledIndex="[edi*8]" r32="eax"/>
+     <item hexadecimal="F9" ss="11" index="111"  base="001"  sacledIndex="[edi*8]" r32="ecx"/>
+     <item hexadecimal="FA" ss="11" index="111"  base="010"  sacledIndex="[edi*8]" r32="edx"/>
+     <item hexadecimal="FB" ss="11" index="111"  base="011"  sacledIndex="[edi*8]" r32="ebx"/>
+     <item hexadecimal="FC" ss="11" index="111"  base="100"  sacledIndex="[edi*8]" r32="esp"/>
+     <item hexadecimal="FD" ss="11" index="111"  base="101"  sacledIndex="[edi*8]" r32="[*]"/>
+     <item hexadecimal="FE" ss="11" index="111"  base="110"  sacledIndex="[edi*8]" r32="esi"/>
+     <item hexadecimal="FF" ss="11" index="111"  base="111"  sacledIndex="[edi*8]" r32="edi"/>
+     
+</Root>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<twoByteOpcodeBeanLst>
+
+    <opcode opcode="80" opcodeName="jcc"   handler="jcc_o"     pfx=""      length="6"  firstOperandType=""    secondOperandType=""  />
+    <opcode opcode="81" opcodeName="jcc"   handler="jcc_no"     pfx=""      length="6"  firstOperandType=""    secondOperandType=""  />
+    <opcode opcode="82" opcodeName="jcc"   handler="jcc_b_chae"     pfx=""      length="6"  firstOperandType=""    secondOperandType=""  />
+    <opcode opcode="83" opcodeName="jcc"   handler="jcc_ae_nb_nc"   pfx=""   length="6"  firstOperandType=""    secondOperandType=""  />
+    <opcode opcode="84" opcodeName="jcc"   handler="jcc_e_z"   pfx=""      length="6"  firstOperandType=""    secondOperandType=""  />
+    <opcode opcode="85" opcodeName="jcc"   handler="jcc_ne_nz" pfx=""      length="6"  firstOperandType=""    secondOperandType=""  />
+    <opcode opcode="86" opcodeName="jcc"   handler="jcc_be_na"     pfx=""      length="6"  firstOperandType=""    secondOperandType=""  />
+    <opcode opcode="87" opcodeName="jcc"   handler="jcc_a_nbe" pfx=""      length="6"  firstOperandType=""    secondOperandType=""  />
+    
+    <opcode opcode="8c" opcodeName="jcc"   handler="jcc_l_nge_long" pfx=""      length="6"  firstOperandType=""    secondOperandType=""  /> 
+    <opcode opcode="8d" opcodeName="jcc"   handler="jcc_nl_ge_2"    pfx=""      length="6"  firstOperandType=""    secondOperandType=""  /> 
+    <opcode opcode="8e" opcodeName="jcc"   handler="jcc_le_ng_2"    pfx=""      length="6"  firstOperandType=""    secondOperandType=""  />
+    <opcode opcode="8f" opcodeName="jcc"   handler="jcc_nle_g"    pfx=""        length="6"  firstOperandType=""    secondOperandType=""  />
+    
+    <opcode opcode="90" opcodeName="setcc"   handler="setcc_o"     pfx=""      length="6"  firstOperandType=""    secondOperandType=""  />
+    <opcode opcode="91" opcodeName="setcc"   handler="setcc_no"     pfx=""      length="6"  firstOperandType=""    secondOperandType=""  />
+    <opcode opcode="92" opcodeName="setcc"   handler="setcc_b_chae"     pfx=""      length="6"  firstOperandType=""    secondOperandType=""  />
+    <opcode opcode="93" opcodeName="setcc"   handler="setcc_ae_nb_nc"   pfx=""   length="6"  firstOperandType=""    secondOperandType=""  />
+    <opcode opcode="94" opcodeName="setcc"   handler="setcc_e_z"   pfx=""      length="6"  firstOperandType=""    secondOperandType=""  />
+    <opcode opcode="95" opcodeName="setcc"   handler="setcc_ne_nz" pfx=""      length="6"  firstOperandType=""    secondOperandType=""  />
+    <opcode opcode="96" opcodeName="setcc"   handler="setcc_be_na"     pfx=""      length="6"  firstOperandType=""    secondOperandType=""  />
+    <opcode opcode="97" opcodeName="setcc"   handler="setcc_a_nbe" pfx=""      length="6"  firstOperandType=""    secondOperandType=""  />
+    <opcode opcode="98" opcodeName="setcc"   handler="setcc_s"    pfx=""      length="3"  firstOperandType=""    secondOperandType=""  />
+    <opcode opcode="9c" opcodeName="setcc"   handler="setcc_l_nge" pfx=""      length="3"  firstOperandType=""    secondOperandType=""  />
+    <opcode opcode="9d" opcodeName="setcc"   handler="setcc_nl_ge" pfx=""      length="3"  firstOperandType=""    secondOperandType=""  />
+    
+    <opcode opcode="af" opcodeName="imul"   handler="decode" pfx=""      length="6"  firstOperandType="Gv"    secondOperandType="Ev"  />
+    
+    <opcode opcode="b6" opcodeName="movzx" handler="decode"    pfx=""      length="3"  firstOperandType="Gv"  secondOperandType="Eb"    />
+    <opcode opcode="b7" opcodeName="movzx" handler="decode"    pfx=""      length="3"  firstOperandType="Gv"  secondOperandType="Ew"   />
+    <opcode opcode="be" opcodeName="movsx" handler="decode"    pfx=""      length="3"  firstOperandType="Gv"  secondOperandType="Eb"   />
+    <opcode opcode="bf" opcodeName="movsx" handler="decode"    pfx=""      length="3"  firstOperandType="Gv"  secondOperandType="Ew"   />
+    
+    <opcode opcode="c0" opcodeName="xadd" handler="decode"    pfx=""      length="3"  firstOperandType="Eb"  secondOperandType="Gb"   />
+    <opcode opcode="c1" opcodeName="xadd" handler="decode"    pfx=""      length="3"  firstOperandType="Ev"  secondOperandType="Gv"   />
+    
+</twoByteOpcodeBeanLst>

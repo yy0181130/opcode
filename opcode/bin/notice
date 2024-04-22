@@ -1,0 +1,17 @@
+这里默认用的段是ds，你可以加segment override prefix换成别的段 
+
+
+件跳转指令检查一个或多个标志位，判断它们是否匹配某个特殊条件(就像setcc指令)：如果标志匹配成功，该指令就将控制转移到目标位置；如果匹配失败，CPU忽略该条件跳转指令而继续执行下一条指令。一些条件跳转指令只是简单测试符号位(sign)、进位位(carry)、溢出位(overflow)、零标志(zero)位的设置
+
+
+是否能够唯一确定一个处理函数？
+是否能够细化到一个唯一确定的函数？
+
+将最终指令和转移的指令分开
+
+
+  CpuStatus cpuStatus = (CpuStatus) GetACT.getApplicationContext().getBean("cpuStatus"); 
+		String eip=cpuStatus.getEip();
+		if(eip.equals("00405b9d")){
+			System.out.println(1);
+		}

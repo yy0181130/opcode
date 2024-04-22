@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<groupOpcodeBeanLst>
+    <groupopcode opCode="80" group="1" mod="11" pfx="">
+        <encoding encode="000" instruct="add"/>
+        <encoding encode="001" instruct="or"/>
+        <encoding encode="010" instruct="adc"/>
+        <encoding encode="011" instruct="sbb"/>
+        <encoding encode="100" instruct="and"/>
+        <encoding encode="101" instruct="sub"/>
+        <encoding encode="110" instruct="xor"/>
+        <encoding encode="111" instruct="cmp"/>
+    </groupopcode>
+    <groupopcode opCode="8f" group="1a" mod="11" pfx="">
+        <encoding encode="000" instruct="pop"/>
+    </groupopcode>
+    <groupopcode opCode="c7" group="11" mod="11" pfx="">
+        <encoding encode="000" instruct="mov"/>
+    </groupopcode>
+    
+    <groupopcode opCode="c0" group="2" mod="11" pfx="">
+        <encoding encode="000" instruct="rol"/>
+        <encoding encode="001" instruct="ror"/>
+        <encoding encode="010" instruct="rcl"/>
+        <encoding encode="011" instruct="rcr"/>
+        <encoding encode="100" instruct="shl"/>
+        <encoding encode="101" instruct="shr"/>
+        <encoding encode="110" instruct=""/>
+        <encoding encode="111" instruct="sar"/>
+    </groupopcode>
+    
+    
+    <groupopcode opCode="f6" group="3" mod="11" pfx="">
+        <encoding encode="000" instruct="test" secondOperandType="Ib"/>
+        <encoding encode="001" instruct=""/>
+        <encoding encode="010" instruct="not"/>
+        <encoding encode="011" instruct="neg"/>
+        <encoding encode="100" instruct="mul"/>
+        <encoding encode="101" instruct="imul"/>
+        <encoding encode="110" instruct="div"/>
+        <encoding encode="111" instruct="idiv"/>
+    </groupopcode> 
+     <groupopcode opCode="f7" group="3" mod="11" pfx="">
+        <encoding encode="000" instruct="test" secondOperandType="Iz"/>
+        <encoding encode="001" instruct=""/>
+        <encoding encode="010" instruct="not"/>
+        <encoding encode="011" instruct="neg"/>
+        <encoding encode="100" instruct="mul"/>
+        <encoding encode="101" instruct="imul"/>
+        <encoding encode="110" instruct="div"/>
+        <encoding encode="111" instruct="idiv"/>
+    </groupopcode> 
+    
+     <groupopcode opCode="ff" group="4" mod="11" pfx="">
+        <encoding encode="000" instruct="inc" firstOperandType="Eb" />
+        <encoding encode="001" instruct="dec" firstOperandType="Eb" />
+    </groupopcode> 
+    
+   <groupopcode opCode="ff" group="5" mod="11" pfx="">
+        <encoding encode="000" instruct="inc" firstOperandType="Ev" />
+        <encoding encode="001" instruct="dec" firstOperandType="Ev" />
+        <encoding encode="010" instruct="call" firstOperandType="Ev"/>
+        <encoding encode="011" instruct="callf" firstOperandType="Ep"/>
+        <encoding encode="100" instruct="jmpn" firstOperandType="Ev"/>
+        <encoding encode="101" instruct="jmpf" firstOperandType="Ep"/>
+        <encoding encode="110" instruct="push" firstOperandType="Ev"/>
+    </groupopcode> 
+    
+</groupOpcodeBeanLst>
